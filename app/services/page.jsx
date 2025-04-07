@@ -6,25 +6,25 @@ const services = [
     {
         num: '01',
         title: 'Web development',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.',
+        description: 'Building responsive, high-performance websites tailored to your business needs.',
         href: ""
     },
     {
         num: '02',
         title: 'UI/UX Design',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.',
+        description: 'Designing intuitive and engaging user experiences that elevate your brand.',
         href: ""
     },
     {
         num: '03',
         title: 'Logo Design',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.',
+        description: 'Crafting unique and memorable logos that capture your brand identity.',
         href: ""
     },
     {
         num: '04',
-        title: 'SEO',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.',
+        title: 'System Maintenance',
+        description: 'Ensuring your systems run smoothly with regular updates, monitoring, and support.',
         href: ""
     }
 ]

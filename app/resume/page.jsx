@@ -1,11 +1,11 @@
 "use client";
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaJava, FaCShap } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaJava, FaDocker } from "react-icons/fa";
+import { SiMysql, SiOracle, SiPostgresql, SiDotnet, SiMongodb } from "react-icons/si";
 
 
 const about = {
     title: "About me",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    description: "Passionate software developer with 3+ years of experience, delivering powerful solutions using multiple technologies",
     info: [
         {
             fieldName: "Name",
@@ -46,7 +46,7 @@ const about = {
 const experience = {
     icon: '/assets/resume/badge.svg',
     title: "My experience",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    description: "Progressive experience in backend development with a strong focus on Java and .NET technologies, built through real-world projects and agile environments.",
     items: [
         {
             company: "GSoft",
@@ -70,7 +70,7 @@ const experience = {
         },
         {
             company: "ICanTech",
-            position: "Programming teacher",
+            position: "Teaching Assistant",
             duration: "2020 - 2024"
         }
     ]
@@ -80,7 +80,7 @@ const experience = {
 const education = {
     icon: '/assets/resume/cap.svg',
     title: "My education",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    description: "Academic background in Information Technology, complemented by practical training in backend development.",
     items: [
         {
             institution: "Quy Nhon University",
@@ -98,11 +98,39 @@ const education = {
 // skills data
 const skills = {
     title: "My skills",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    description: "Proficient in a range of modern web technologies, from backend to frontend frameworks and styling tools.",
     skillList: [
         {
             icon: <FaJava />,
             name: 'Java'
+        },
+        {
+            icon: <SiDotnet />,
+            name: '.NET'
+        },
+        {
+            icon: <FaDocker />,
+            name: 'Docker'
+        },
+        {
+            icon: <SiMysql />,
+            name: 'MySql'
+        },
+        {
+            icon: <SiOracle />,
+            name: 'Oracle'
+        },
+        {
+            icon: <SiPostgresql />,
+            name: 'Postgresql'
+        },
+        {
+            icon: <SiMongodb />,
+            name: 'MongoDB'
+        },
+        {
+            icon: <FaReact />,
+            name: 'react.js'
         },
         {
             icon: <FaHtml5 />,
@@ -115,22 +143,6 @@ const skills = {
         {
             icon: <FaJs />,
             name: 'javascript'
-        },
-        {
-            icon: <FaReact />,
-            name: 'react.js'
-        },
-        {
-            icon: <SiNextdotjs />,
-            name: 'next.js'
-        },
-        {
-            icon: <SiTailwindcss />,
-            name: 'tailwind.js'
-        },
-        {
-            icon: <FaNodeJs />,
-            name: 'node.js'
         }
     ]
 }

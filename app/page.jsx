@@ -16,17 +16,20 @@ const Home = () => {
               Hello I'm <br /> <span className="text-accent">Nguyen Van Tinh</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.
+              I am a software developer with 3 years of experience specializing in backend development. I have hands-on experience working with Java Spring Boot and .NET technologies, along with a solid understanding of related tools and frameworks. <br />
+              I have experience in the banking domain and in Agile software development processes.
             </p>
             {/*btn and socials*/}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2">
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+              <a href="/assets/cv.pdf" download="CV Nguyen Van Tinh.pdf">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2">
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
